@@ -17,7 +17,7 @@ else
 end
 
 puts "拡張子を除いたファイルを入力してください"
-file_name = gets.to_s + ".csv"
+file_name = gets.chomp.to_s + ".csv"
 
 p "メモしたい内容を記入してください"
 p "完了したらCtrl + Dをおします"
